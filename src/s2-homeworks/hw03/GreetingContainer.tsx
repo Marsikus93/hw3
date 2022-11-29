@@ -56,6 +56,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
         pureAddUser(name, setError, setName, addUserCallback)
         setTotalUsers(totalUsers+1)
         setLastUserName(name)
+        setName("")
     }
 
     const onBlur = () => {
