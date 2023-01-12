@@ -1,25 +1,70 @@
 .sidebar {
+    width: 100%;
+    background-color: white;
+    font-size: 16px;
+    font-family: Roboto;
+
 }
 
 .sidebar.open {
+    height: 100%;
+    z-index: 90;
 }
 
 .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: 70;
+    background-color: black;
+
 }
 
 .nav {
+    z-index: 90;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    gap: 10%;
+    color: #FFFFFF;
+    border: 3px solid grey;
+    text-align: revert;
+    padding-left: 5%;
+    background-color: #FFFFFF;
 }
 
 .nav a {
+    padding: 10%;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .nav a:hover {
+    color: midnightblue;
+    text-decoration-line: underline;
 }
 
 .nav a.active {
+    color: darkblue;
+    text-decoration-line: underline;
+
 }
+
 .close {
+    width: 24px;
+    height: 24px;
+    border: none;
+    margin-left: 90%;
+    background-color: #FFFFFF;
+    padding-top: 2%;
 }
 
 .close img {
+    align-content: center;
+    width: 24px;
+    height: 24px;
 }
