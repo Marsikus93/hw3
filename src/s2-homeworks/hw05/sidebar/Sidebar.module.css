@@ -61,6 +61,7 @@
     margin-left: 90%;
     background-color: #FFFFFF;
     padding-top: 2%;
+    cursor: pointer;
 }
 
 .close img {
