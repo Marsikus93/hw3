@@ -36,14 +36,14 @@ const HW12 = () => {
                 Homework #12
             </div>
 
-            <div className={s2.hw}>
-                <SuperSelect
-                    id={'hw12-select-theme'}
-                    className={s.select}
-                    // сделать переключение тем
+            {/*<div className={s2.hw}>*/}
+                {/*<SuperSelect*/}
+                {/*    id={'hw12-select-theme'}*/}
+                {/*    className={s.select}*/}
+                {/*    // сделать переключение тем*/}
 
-                />
-            </div>
+                {/*/>*/}
+            {/*</div>*/}
         </div>
     )
 }
